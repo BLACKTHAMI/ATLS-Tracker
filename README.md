@@ -2,6 +2,28 @@
 
 ATLS Course Notifier is a web application built using the MERN stack (MongoDB, Express, React, Node.js) that periodically checks for open registration spots on the [ATLS Course Website](http://www.atls.co.za/Course). When courses become available, the app notifies subscribed users via email and WhatsApp.
 
+## Project Structure
+```
+atls-course-notifier/
+├── client/
+│   ├── public/
+│   └── src/
+│       ├── components/
+│       ├── pages/
+│       ├── App.js
+│       └── index.js
+├── server/
+│   ├── config/
+│   ├── models/
+│   ├── routes/
+│   ├── services/
+│   ├── utils/
+│   └── server.js
+├── .gitignore
+├── package.json
+└── README.md
+```
+
 ## Features
 
 - User subscription system for course notifications
